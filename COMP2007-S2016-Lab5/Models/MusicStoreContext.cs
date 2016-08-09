@@ -16,5 +16,8 @@ namespace COMP2007_S2016_Lab5.Models
         public virtual DbSet<Genre> Genres { get; set; }
         public virtual DbSet<Artist> Artists { get; set; }
 
+        public virtual DbSet<Cart> Carts { get; set; }
+        public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<OrderDetail> OrderDetails { get; set; }
     }
 }
