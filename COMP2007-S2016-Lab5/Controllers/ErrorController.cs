@@ -13,7 +13,7 @@ namespace COMP2007_S2016_Lab5.Controllers
         {
             return View("Error");
         }
-        // GET: NotFound
+        // GET: NotFound 
         public ViewResult NotFound()
         {
             Response.StatusCode = 404;
